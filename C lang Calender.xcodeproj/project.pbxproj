@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A4457A532A4BC57D003588B7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4457A522A4BC57D003588B7 /* main.c */; };
+		A4457A5D2A4BD841003588B7 /* UI.c in Sources */ = {isa = PBXBuildFile; fileRef = A4457A5C2A4BD841003588B7 /* UI.c */; };
+		A4457A5F2A4BD941003588B7 /* backend.c in Sources */ = {isa = PBXBuildFile; fileRef = A4457A5E2A4BD941003588B7 /* backend.c */; };
+		A4457A612A4BE6C3003588B7 /* Fileinout.c in Sources */ = {isa = PBXBuildFile; fileRef = A4457A602A4BE6C3003588B7 /* Fileinout.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,11 @@
 /* Begin PBXFileReference section */
 		A4457A4F2A4BC57D003588B7 /* C lang Calender */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C lang Calender"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4457A522A4BC57D003588B7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A4457A592A4BC5B0003588B7 /* windows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windows.h; sourceTree = "<group>"; };
+		A4457A5A2A4BC5BA003588B7 /* vacationCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vacationCalender.h; sourceTree = "<group>"; };
+		A4457A5C2A4BD841003588B7 /* UI.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = UI.c; sourceTree = "<group>"; };
+		A4457A5E2A4BD941003588B7 /* backend.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = backend.c; sourceTree = "<group>"; };
+		A4457A602A4BE6C3003588B7 /* Fileinout.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fileinout.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				A4457A522A4BC57D003588B7 /* main.c */,
+				A4457A592A4BC5B0003588B7 /* windows.h */,
+				A4457A5A2A4BC5BA003588B7 /* vacationCalender.h */,
+				A4457A5C2A4BD841003588B7 /* UI.c */,
+				A4457A5E2A4BD941003588B7 /* backend.c */,
+				A4457A602A4BE6C3003588B7 /* Fileinout.c */,
 			);
 			path = "C lang Calender";
 			sourceTree = "<group>";
@@ -119,7 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4457A5F2A4BD941003588B7 /* backend.c in Sources */,
 				A4457A532A4BC57D003588B7 /* main.c in Sources */,
+				A4457A5D2A4BD841003588B7 /* UI.c in Sources */,
+				A4457A612A4BE6C3003588B7 /* Fileinout.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

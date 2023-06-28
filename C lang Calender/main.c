@@ -2,13 +2,15 @@
 //  main.c
 //  C lang Calender
 //
-//  Created by 한설 on 2023/06/28.
+//  Created by 한설 on 2023/06/27.
 //
 
+#include "vacationCalender.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void) {
+    title();
     return 0;
 }
